@@ -2,10 +2,10 @@ import React, {  lazy } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import Main  from './Main';
+import Link  from './Link';
 
-const Main  = lazy(() => import('./Main'));
 
-const Link  = lazy(() => import('./Link'));
 
 function App() {
   return (
